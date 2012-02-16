@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55115C5714E69AAF00951BF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55115C5614E69AAF00951BF3 /* UIKit.framework */; };
+		55115C5914E69AAF00951BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55115C5814E69AAF00951BF3 /* Foundation.framework */; };
+		55115C5B14E69AAF00951BF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55115C5A14E69AAF00951BF3 /* CoreGraphics.framework */; };
+		55115C6114E69AAF00951BF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55115C5F14E69AAF00951BF3 /* InfoPlist.strings */; };
+		55115C6314E69AAF00951BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55115C6214E69AAF00951BF3 /* main.m */; };
+		55115C6714E69AAF00951BF3 /* colorNotesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55115C6614E69AAF00951BF3 /* colorNotesAppDelegate.m */; };
+		55115C6A14E69AAF00951BF3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55115C6814E69AAF00951BF3 /* MainStoryboard.storyboard */; };
+		55115C6D14E69AAF00951BF3 /* colorNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55115C6C14E69AAF00951BF3 /* colorNotesViewController.m */; };
+		55115C7514E69BCD00951BF3 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55115C7414E69BCD00951BF3 /* CustomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55115C5214E69AAF00951BF3 /* ColorNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55115C5614E69AAF00951BF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55115C5814E69AAF00951BF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55115C5A14E69AAF00951BF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55115C5E14E69AAF00951BF3 /* ColorNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorNotes-Info.plist"; sourceTree = "<group>"; };
+		55115C6014E69AAF00951BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55115C6214E69AAF00951BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55115C6414E69AAF00951BF3 /* ColorNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorNotes-Prefix.pch"; sourceTree = "<group>"; };
+		55115C6514E69AAF00951BF3 /* colorNotesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colorNotesAppDelegate.h; sourceTree = "<group>"; };
+		55115C6614E69AAF00951BF3 /* colorNotesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colorNotesAppDelegate.m; sourceTree = "<group>"; };
+		55115C6914E69AAF00951BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		55115C6B14E69AAF00951BF3 /* colorNotesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colorNotesViewController.h; sourceTree = "<group>"; };
+		55115C6C14E69AAF00951BF3 /* colorNotesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colorNotesViewController.m; sourceTree = "<group>"; };
+		55115C7314E69BCD00951BF3 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		55115C7414E69BCD00951BF3 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55115C4F14E69AAF00951BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55115C5714E69AAF00951BF3 /* UIKit.framework in Frameworks */,
+				55115C5914E69AAF00951BF3 /* Foundation.framework in Frameworks */,
+				55115C5B14E69AAF00951BF3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55115C4714E69AAF00951BF3 = {
+			isa = PBXGroup;
+			children = (
+				55115C5C14E69AAF00951BF3 /* ColorNotes */,
+				55115C5514E69AAF00951BF3 /* Frameworks */,
+				55115C5314E69AAF00951BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55115C5314E69AAF00951BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55115C5214E69AAF00951BF3 /* ColorNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55115C5514E69AAF00951BF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55115C5614E69AAF00951BF3 /* UIKit.framework */,
+				55115C5814E69AAF00951BF3 /* Foundation.framework */,
+				55115C5A14E69AAF00951BF3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55115C5C14E69AAF00951BF3 /* ColorNotes */ = {
+			isa = PBXGroup;
+			children = (
+				55115C6514E69AAF00951BF3 /* colorNotesAppDelegate.h */,
+				55115C6614E69AAF00951BF3 /* colorNotesAppDelegate.m */,
+				55115C6814E69AAF00951BF3 /* MainStoryboard.storyboard */,
+				55115C7314E69BCD00951BF3 /* CustomView.h */,
+				55115C7414E69BCD00951BF3 /* CustomView.m */,
+				55115C6B14E69AAF00951BF3 /* colorNotesViewController.h */,
+				55115C6C14E69AAF00951BF3 /* colorNotesViewController.m */,
+				55115C5D14E69AAF00951BF3 /* Supporting Files */,
+			);
+			path = ColorNotes;
+			sourceTree = "<group>";
+		};
+		55115C5D14E69AAF00951BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55115C5E14E69AAF00951BF3 /* ColorNotes-Info.plist */,
+				55115C5F14E69AAF00951BF3 /* InfoPlist.strings */,
+				55115C6214E69AAF00951BF3 /* main.m */,
+				55115C6414E69AAF00951BF3 /* ColorNotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55115C5114E69AAF00951BF3 /* ColorNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55115C7014E69AAF00951BF3 /* Build configuration list for PBXNativeTarget "ColorNotes" */;
+			buildPhases = (
+				55115C4E14E69AAF00951BF3 /* Sources */,
+				55115C4F14E69AAF00951BF3 /* Frameworks */,
+				55115C5014E69AAF00951BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorNotes;
+			productName = ColorNotes;
+			productReference = 55115C5214E69AAF00951BF3 /* ColorNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55115C4914E69AAF00951BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Intermation;
+			};
+			buildConfigurationList = 55115C4C14E69AAF00951BF3 /* Build configuration list for PBXProject "ColorNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55115C4714E69AAF00951BF3;
+			productRefGroup = 55115C5314E69AAF00951BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55115C5114E69AAF00951BF3 /* ColorNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55115C5014E69AAF00951BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55115C6114E69AAF00951BF3 /* InfoPlist.strings in Resources */,
+				55115C6A14E69AAF00951BF3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55115C4E14E69AAF00951BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55115C6314E69AAF00951BF3 /* main.m in Sources */,
+				55115C6714E69AAF00951BF3 /* colorNotesAppDelegate.m in Sources */,
+				55115C6D14E69AAF00951BF3 /* colorNotesViewController.m in Sources */,
+				55115C7514E69BCD00951BF3 /* CustomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55115C5F14E69AAF00951BF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55115C6014E69AAF00951BF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55115C6814E69AAF00951BF3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55115C6914E69AAF00951BF3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55115C6E14E69AAF00951BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55115C6F14E69AAF00951BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55115C7114E69AAF00951BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorNotes/ColorNotes-Prefix.pch";
+				INFOPLIST_FILE = "ColorNotes/ColorNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55115C7214E69AAF00951BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorNotes/ColorNotes-Prefix.pch";
+				INFOPLIST_FILE = "ColorNotes/ColorNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55115C4C14E69AAF00951BF3 /* Build configuration list for PBXProject "ColorNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55115C6E14E69AAF00951BF3 /* Debug */,
+				55115C6F14E69AAF00951BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55115C7014E69AAF00951BF3 /* Build configuration list for PBXNativeTarget "ColorNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55115C7114E69AAF00951BF3 /* Debug */,
+				55115C7214E69AAF00951BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55115C4914E69AAF00951BF3 /* Project object */;
+}
